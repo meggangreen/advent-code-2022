@@ -3,9 +3,9 @@ from inputs import I01
 def part_1_and_2():
     data = I01.split('\n\n')
     elves = []
-        for elf in data:
-            cals = sum([int(n) for n in elf.split('\n')])
-            elves.append(cals)
+    for elf in data:
+        cals = sum([int(n) for n in elf.split('\n')])
+        elves.append(cals)
 
     print(f"Part 1: {max(elves)}")    # 70374
 
@@ -19,3 +19,7 @@ def part_1_and_2():
                 break
 
     print(f"Part 2: {total_cals}")    # 204610
+
+
+if __name__ == '__main__':
+    part_1_and_2()
