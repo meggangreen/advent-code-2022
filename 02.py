@@ -1,7 +1,6 @@
 from inputs import I02, T02
 
-data = I02
-plays = [play.split(' ') for play in data.split('\n')]
+plays = [play.split(' ') for play in I02.split('\n')]
 
 exchange = {'A': 1, 'B': 2, 'C': 3,
             'X': 1, 'Y': 2, 'Z': 3,
