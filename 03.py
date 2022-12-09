@@ -1,7 +1,7 @@
-from inputs import T03
+from inputs import T03, I03
 
 # toggle data for Test or Input
-data = T03
+data = I03
 
 rucksacks = [(chars[:len(chars)//2], chars[len(chars)//2:]) for chars in data.split('\n')]
 
@@ -15,5 +15,5 @@ for rucksack in rucksacks:
         vals += v - 38
 
 
-print(f"Part 1: {vals}")
+print(f"Part 1: {vals}")    # 7766
 
