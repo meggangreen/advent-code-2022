@@ -1,20 +1,20 @@
-T05_stacks = {"1": 'Z,N',
-              "2": 'M,C,D'],
-              "3": 'P'}
+T05_stacks = {1: 'Z,N',
+              2: 'M,C,D',
+              3: 'P'}
 T05_moves = """move 1 from 2 to 1
 move 3 from 1 to 3
 move 2 from 2 to 1
 move 1 from 1 to 2"""
 
-I05_stacks = {'1': 'D,L,J,R,V,G,F',
-              '2': 'T,P,M,B,V,H,J,S',
-              '3': 'V,H,M,F,D,G,P,C',
-              '4': 'M,D,P,N,G,Q',
-              '5': 'J,L,H,N,F',
-              '6': 'N,F,V,Q,D,G,T,Z',
-              '7': 'F,D,B,L',
-              '8': 'M,J,B,S,V,D,N',
-              '9': 'G,L,D'}
+I05_stacks = {1: 'D,L,J,R,V,G,F',
+              2: 'T,P,M,B,V,H,J,S',
+              3: 'V,H,M,F,D,G,P,C',
+              4: 'M,D,P,N,G,Q',
+              5: 'J,L,H,N,F',
+              6: 'N,F,V,Q,D,G,T,Z',
+              7: 'F,D,B,L',
+              8: 'M,J,B,S,V,D,N',
+              9: 'G,L,D'}
 I05_moves = """move 3 from 4 to 6
 move 1 from 5 to 8
 move 3 from 7 to 3
